@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html style="font-family: 'Amatic SC';">
+  <head>
+    <link rel='stylesheet' href='/stylesheets/tidy-css.css' />
+    <link rel='stylesheet' href='/stylesheets/foundation.min.css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div class="mobile-menu-icon">
+        <i id="mobile-toggle" class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="main-wrapper">
+      <div class="sidebar-wrapper">
+        <div class="sidebar-content">
+          <ul class="menu sidebar-menu">
+            <a href="/"><li><span class="sidebar-menu-link">About</span></li></a>
+            <a href="projects"><li><span class="sidebar-menu-link">Projects</span></li></a>
+            <a href="https://github.com/wilko55"><li><span class="sidebar-menu-link">Github</span></li></a>
+            <a href="https://www.linkedin.com/in/andyjwilko/"><li><span class="sidebar-menu-link">LinkedIn</span></li></a>
+          </ul>
+        </div>
+        <div class="footer">
+          2017
+        </div>
+      </div>
+      <div class="main-content">
+        {{$content}}
+        {{/content}}
+      </div>
+    </div>
+  </body>
+  <script>
+    $('#mobile-toggle').click(function() {
+      $('.sidebar-wrapper').toggle();
+    })
+    $('.user-info').click(function() {
+      $('.user-menu').toggle();
+    })
+  </script>
+
+</html>
