@@ -52,7 +52,9 @@ body {
     display: block;
     font-size: 0.9rem; }
   .mobile-menu-icon {
-    display: block; } }
+    display: block; }
+  .main-wrapper {
+    margin-left: 1rem; } }
 
 @media (min-width: 670px) {
   .mobile-menu-icon {
