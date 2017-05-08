@@ -54,7 +54,9 @@ body {
   .mobile-menu-icon {
     display: block; }
   .main-wrapper {
-    margin-left: 1rem; } }
+    margin-left: 1rem; }
+  .columns {
+    padding: 0rem !important; } }
 
 @media (min-width: 670px) {
   .mobile-menu-icon {
@@ -168,7 +170,7 @@ ul li {
   color: #FD8508; }
 
 img {
-  max-height: 15rem; }
+  max-height: 13rem; }
 
 h3 a:visited {
   color: #9fde76; }

@@ -67,6 +67,9 @@ body {
   .main-wrapper {
     margin-left: 1rem;
   }
+  .columns {
+    padding: 0rem !important;
+  }
 }
 
 @media (min-width: 670px) {
@@ -220,7 +223,7 @@ ul li {
 }
 
 img {
-  max-height: 15rem;
+  max-height: 13rem;
 }
 
 h3 a {
