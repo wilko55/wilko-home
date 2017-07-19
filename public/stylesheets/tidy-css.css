@@ -67,7 +67,9 @@ body {
     display: none; }
   .sidebar-wrapper {
     margin-left: -14em;
-    display: block !important; } }
+    display: block !important; }
+  .about-summary p {
+    max-width: 70%; } }
 
 .main-content {
   width: 100%;
