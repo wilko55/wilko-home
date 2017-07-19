@@ -69,7 +69,7 @@ body {
     margin-left: -14em;
     display: block !important; }
   .about-summary p {
-    max-width: 70%; } }
+    max-width: 75%; } }
 
 .main-content {
   width: 100%;
@@ -124,7 +124,9 @@ ul li {
     .sidebar-menu a li {
       width: 100%;
       height: 2.5rem;
-      padding: 0.5rem 0 0 2rem; }
+      padding: 0.5rem 0 0 2rem;
+      cursor: pointer;
+      cursor: hand; }
     .sidebar-menu a li:hover span {
       border-bottom: solid 1px #D75462; }
 
